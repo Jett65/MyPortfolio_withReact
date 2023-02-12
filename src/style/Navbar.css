@@ -1,0 +1,44 @@
+:root {
+	--textColor: rgb(243, 226, 226);
+	--hoverColor: rgb(150, 144, 144);
+}
+
+.navbar {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	background: blue;
+	height: 80px;
+	width: 100%;
+}
+
+label.logo {
+	color: var(--textColor);
+	font-size: 25px;
+	line-height: 80px;
+	padding: 0 20px;
+	font-weight: bold;
+}
+
+.navLinks {
+	box-sizing: border-box;
+	float: right;
+	line-height: 50px;
+	margin-right: 40px;
+}
+
+li {
+	display: inline-block;
+	margin: 0 30px;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+	color: var(--textColor);
+}
+
+.navbar li :hover {
+	color: var(--hoverColor);
+}
