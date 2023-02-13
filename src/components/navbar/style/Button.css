@@ -1,0 +1,28 @@
+:root {
+	--backgroundColor: blue;
+	--buttonHover: rgb(12, 12, 189);
+}
+
+.openMenu {
+	background-color: var(--backgroundColor);
+	align-content: center;
+	height: 53px;
+	width: 53px;
+	border: solid black;
+	border-width: 5px;
+	border-radius: 20%;
+	padding-left: 5px;
+	margin: 10px;
+	margin-right: 20px;
+}
+
+.line div {
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+}
+
+.openMenu:hover {
+	background-color: var(--buttonHover);
+}
