@@ -1,18 +1,23 @@
 :root {
 	--nameTextColor: white;
 	--textColor: rgb(209, 202, 202);
-	--backgroundColor: blue;
+	--backgroundColor: #011c43;
+	--hoverBackgroundColor: #022a6a;
 	--hoverColor: rgb(182, 171, 171);
+	--buttonHoverColor: rgb(8, 8, 154);
 }
 
 .openMenu {
 	display: none;
 }
 
-.navMenu {
+.menuLink {
 	display: none;
 }
 
+.menuLink2 {
+	display: none;
+}
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -56,19 +61,55 @@ a {
 
 	.openMenu {
 		display: block;
+		background-color: var(--backgroundColor);
+		align-content: center;
+		height: 53px;
+		width: 53px;
+		border: solid rgba(3, 3, 207, 0.571);
+		border-width: 5px;
+		border-radius: 20%;
+		padding-left: 5px;
+		margin: 10px;
+		margin-right: 20px;
 	}
 
-	.navMenu {
+	.line div {
+		width: 35px;
+		height: 5px;
+		background-color: white;
+		margin: 6px 0;
+	}
+
+	.openMen:hover {
+		background-color: var(--buttonHoverColor);
+	}
+
+	.navMenu2 {
+		display: block;
 		width: 200px;
-		height: 200px;
-		transition: hight 2s ease-out;
+		height: 220px;
 		z-index: 4;
 		background-color: var(--backgroundColor);
 		float: right;
 		border-bottom-left-radius: 10%;
 	}
 
-	.navMenu a {
-		text-decoration: none;
+	.menuLink2 {
+		display: block;
+		float: right;
+		margin-right: 50px;
+	}
+
+	.navItemMenu {
+		color: var(--textColor);
+		display: block;
+	}
+
+	.navItemMenu a {
+		color: var(--textColor);
+	}
+
+	.navItemMenu :hover {
+		background-color: var(--hoverBackgroundColor);
 	}
 }

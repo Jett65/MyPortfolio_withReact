@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import MenuItems from "./MenuItems";
-import Button from "./Button";
 import "./style/Navbar.css";
 
 function Navbar({ currentPage, handlePageChange }) {
+	const [menuStyle, setMenuStyle] = useState("navMenu");
+	const [navStyle, setNavStyle] = useState("menuLink");
+
+	function displayMenu() {
+		if (menuStyle === "navMenu") {
+			setMenuStyle("navMenu2");
+			setNavStyle("menuLink2");
+		} else {
+			setMenuStyle("navMenu");
+			setNavStyle("menuLink");
+		}
+	}
+
 	return (
 		<>
 			<nav className="navbar">
@@ -27,10 +39,16 @@ function Navbar({ currentPage, handlePageChange }) {
 						);
 					})}
 				</ul>
-				<Button />
+				<button className="openMenu" onClick={displayMenu}>
+					<div className="line">
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</button>
 			</nav>
-			<div className="navMenu">
-				<nav className="navMenu">
+			<div className={menuStyle}>
+				<nav className={navStyle}>
 					<ul>
 						{MenuItems.map((item, index) => {
 							return (
