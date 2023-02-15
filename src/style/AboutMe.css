@@ -1,5 +1,4 @@
-.AboutMe {
-	display: flex;
-	background-color: red;
-	justify-content: space-between;
+.aboutMe {
+	margin: 10px;
+	color: white;
 }

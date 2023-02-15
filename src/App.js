@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Banner from "./components/Banner";
 
 function App() {
 	const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -32,6 +33,7 @@ function App() {
 				currentPage={currentPage}
 				handlePageChange={handlePageChange}
 			/>
+			<Banner />
 			{renderPage()}
 		</>
 	);
@@ -40,3 +42,4 @@ function App() {
 export default App;
 
 // TODO: Add the a banner to the page
+// TODO: Figure out the background color
