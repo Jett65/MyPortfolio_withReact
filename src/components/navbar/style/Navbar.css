@@ -1,7 +1,7 @@
 :root {
 	--nameTextColor: white;
 	--textColor: rgb(209, 202, 202);
-	--backgroundColor: #011c43;
+	--backgroundColor: #01122a;
 	--hoverBackgroundColor: #022a6a;
 	--hoverColor: rgb(182, 171, 171);
 	--buttonHoverColor: rgb(8, 8, 154);
@@ -30,7 +30,7 @@
 	list-style: none;
 	box-sizing: border-box;
 	background: var(--backgroundColor);
-	height: 80px;
+	height: 70px;
 	width: 100%;
 }
 

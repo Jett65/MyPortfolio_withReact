@@ -1,0 +1,16 @@
+.footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+.link {
+	margin: 10px;
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #05316f;
+	/* border-radius: 10%;
+	background-color: black; */
+	color: orange;
+}

@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 function App() {
 	const [currentPage, setCurrentPage] = useState("AboutMe");
@@ -35,6 +36,7 @@ function App() {
 			/>
 			<Banner />
 			{renderPage()}
+			<Footer />
 		</>
 	);
 }
