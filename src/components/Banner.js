@@ -6,7 +6,7 @@ function Banner() {
 		<>
 			<img
 				className="bannerImage"
-				src="./image/fiillerImmage.jpg"
+				src="./image/fillerImage.jpg"
 				alt="Temp banner"
 			/>
 		</>

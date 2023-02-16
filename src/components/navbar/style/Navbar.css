@@ -31,7 +31,7 @@
 	box-sizing: border-box;
 	background: var(--backgroundColor);
 	height: 70px;
-	width: 100%;
+	width: 100vw;
 }
 
 .logo {
@@ -46,7 +46,7 @@
 .navItem {
 	background-color: var(--backgroundColor);
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 40px;
 }
 
 a {
