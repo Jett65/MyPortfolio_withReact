@@ -12,3 +12,7 @@
 	background-color: #05316f;
 	color: orange;
 }
+
+.link:hover {
+	color: rgba(255, 166, 0, 0.76);
+}

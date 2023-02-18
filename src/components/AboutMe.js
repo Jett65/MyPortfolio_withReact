@@ -6,6 +6,7 @@ function AboutMe() {
 		<>
 			<div className="aboutMe">
 				<h2>About Me</h2>
+				<div className="avatar"></div>
 				<p>
 					Can curiosity may end shameless explained. True high on said
 					mr on come. An do mr design at little myself wholly entire

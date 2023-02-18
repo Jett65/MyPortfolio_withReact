@@ -1,0 +1,56 @@
+.title {
+	margin-left: 30px;
+	color: white;
+}
+
+.projLink {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 400px 400px;
+	grid-template-rows: 300px 300px;
+	margin-top: 50px;
+}
+
+.projLink div a {
+	background-color: transparent;
+	border: none;
+	margin: 10px;
+	padding: 0%;
+}
+
+.projLink img {
+	width: 85%;
+	height: 85%;
+	margin-bottom: -25px;
+	border: solid black;
+}
+
+.projLink img:hover {
+	border: solid black 5px;
+}
+
+.dep {
+	color: white;
+}
+
+.dep:hover {
+	color: rgb(175, 175, 175);
+}
+
+@media screen and (max-width: 848px) {
+	.projLink {
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+	}
+
+	.projLink .dep {
+		margin: 14%;
+	}
+
+	.projLink a img {
+		width: 80%;
+		height: 80%;
+		margin-left: 10%;
+	}
+}
