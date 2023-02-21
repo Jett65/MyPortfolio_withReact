@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 
 function App() {
 	const [currentPage, setCurrentPage] = useState("AboutMe");
+	const [highlight, setHighlight] = useState(false);
 
 	function renderPage() {
 		if (currentPage === "AboutMe") {
@@ -26,6 +27,10 @@ function App() {
 
 	function handlePageChange(page) {
 		setCurrentPage(page);
+	}
+
+	function highlightNav() {
+		setHighlight((current) => !current);
 	}
 
 	return (

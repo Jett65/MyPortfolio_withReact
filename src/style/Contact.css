@@ -1,0 +1,26 @@
+form {
+	display: grid;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+form label {
+	color: white;
+}
+
+input {
+	width: 300px;
+	height: 25px;
+	background-color: white;
+}
+
+#message {
+	height: 100px;
+	background-color: white;
+}
+
+form button {
+	color: white;
+	border-color: transparent;
+	background-color: black;
+}

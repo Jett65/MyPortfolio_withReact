@@ -1,0 +1,32 @@
+.resume {
+	color: white;
+	margin: 30px;
+}
+
+.content {
+	margin-left: 200px;
+}
+
+.skills li {
+	font-size: 120%;
+	color: white;
+}
+
+.resumeLink {
+	background-color: transparent;
+}
+
+.resumeLink:hover {
+	color: rgb(131, 125, 125);
+}
+
+.title {
+	color: white;
+	margin-left: -10px;
+}
+
+@media screen and (max-width: 848px) {
+	.resumeLink {
+		background-color: transparent;
+	}
+}

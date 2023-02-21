@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import MenuItems from "./MenuItems";
 import "./style/Navbar.css";
 
-function Navbar({ currentPage, handlePageChange }) {
+function Navbar({ currentPage, handlePageChange, highlightNav }) {
 	const [menuStyle, setMenuStyle] = useState("navMenu");
 	const [navStyle, setNavStyle] = useState("menuLink");
+	const [highlight, setHighlight] = useState(true);
 
 	function displayMenu() {
 		if (menuStyle === "navMenu") {
@@ -16,6 +17,13 @@ function Navbar({ currentPage, handlePageChange }) {
 		}
 	}
 
+	function highlightNav(ref) {
+		if (window.location.hash === ref) {
+			setHighlight(true);
+		} else {
+			setHighlight(false);
+		}
+	}
 	return (
 		<>
 			<nav className="navbar">
@@ -26,12 +34,22 @@ function Navbar({ currentPage, handlePageChange }) {
 							<li key={index} className="navItem">
 								<a
 									href={item.hRef}
-									onClick={() =>
-										handlePageChange(`${item.claName}`)
-									}
+									onClick={() => {
+										handlePageChange(`${item.claName}`);
+										highlightNav(item.hRef);
+										console.log(item.hRef);
+									}}
 									className={
 										currentPage === `${item.claName}`
 									}
+									style={{
+										backgroundColor: highlight
+											? "#022a69"
+											: "",
+										border: highlight
+											? "solid rgb(182, 171, 171)"
+											: "",
+									}}
 								>
 									{item.displayName}
 								</a>
