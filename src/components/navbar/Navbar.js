@@ -5,7 +5,7 @@ import "./style/Navbar.css";
 function Navbar({ currentPage, handlePageChange, highlightNav }) {
 	const [menuStyle, setMenuStyle] = useState("navMenu");
 	const [navStyle, setNavStyle] = useState("menuLink");
-	const [highlight, setHighlight] = useState(true);
+	const [highlight, setHighlight] = useState("#aboutMe");
 
 	function displayMenu() {
 		if (menuStyle === "navMenu") {
@@ -17,18 +17,20 @@ function Navbar({ currentPage, handlePageChange, highlightNav }) {
 		}
 	}
 
-	function highlightNav(ref) {
-		if (window.location.hash === ref) {
-			setHighlight(true);
-		} else {
-			setHighlight(false);
-		}
+	function highlightNav(element) {
+		setHighlight(element);
 	}
+
+	const style = {
+		backgroundColor: "#022a69",
+		border: "solid rgb(182, 171, 171)",
+	};
+
 	return (
 		<>
 			<nav className="navbar">
 				<h1 className="logo">Jett Crowther</h1>
-				<ul className="navTop">
+				{/* <ul className="navTop">
 					{MenuItems.map((item, index) => {
 						return (
 							<li key={index} className="navItem">
@@ -36,8 +38,6 @@ function Navbar({ currentPage, handlePageChange, highlightNav }) {
 									href={item.hRef}
 									onClick={() => {
 										handlePageChange(`${item.claName}`);
-										highlightNav(item.hRef);
-										console.log(item.hRef);
 									}}
 									className={
 										currentPage === `${item.claName}`
@@ -56,7 +56,84 @@ function Navbar({ currentPage, handlePageChange, highlightNav }) {
 							</li>
 						);
 					})}
+				</ul> */}
+				<ul className="navTop">
+					<li className="navItem">
+						<a
+							href={"#aboutMe"}
+							onClick={() => {
+								handlePageChange("AboutMe");
+								highlightNav("#aboutMe");
+							}}
+							className={"AboutMe"}
+							style={{
+								backgroundColor:
+									highlight === "#aboutMe" ? "#022a69" : "",
+								border:
+									highlight === "#aboutMe"
+										? "solid #B6ABAB"
+										: "",
+							}}
+						>
+							About Me
+						</a>
+						<a
+							href={"#portfolio"}
+							onClick={() => {
+								handlePageChange("Portfolio");
+								highlightNav("#portfolio");
+							}}
+							className={"Portfolio"}
+							style={{
+								backgroundColor:
+									highlight === "#portfolio" ? "#022a69" : "",
+								border:
+									highlight === "#portfolio"
+										? "solid #B6ABAB"
+										: "",
+							}}
+						>
+							Portfolio
+						</a>
+						<a
+							href={"#contact"}
+							onClick={() => {
+								handlePageChange("Contact");
+								highlightNav("#contact");
+							}}
+							className={"Contact"}
+							style={{
+								backgroundColor:
+									highlight === "#contact" ? "#022a69" : "",
+								border:
+									highlight === "#contact"
+										? "solid #B6ABAB"
+										: "",
+							}}
+						>
+							Contact
+						</a>
+						<a
+							href={"#resume"}
+							onClick={() => {
+								handlePageChange("Resume");
+								highlightNav("#resume");
+							}}
+							className={"Resume"}
+							style={{
+								backgroundColor:
+									highlight === "#resume" ? "#022a69" : "",
+								border:
+									highlight === "#resume"
+										? "solid #B6ABAB"
+										: "",
+							}}
+						>
+							Resume
+						</a>
+					</li>
 				</ul>
+
 				<button className="openMenu" onClick={displayMenu}>
 					<div className="line">
 						<div></div>

@@ -4,22 +4,19 @@ import "../style/Portfolio.css";
 function Portfolio() {
 	return (
 		<>
-			<h2 className="title">Portfolio</h2>
+			<h2 className="portfolio">Portfolio</h2>
 			<div className="projLink">
 				<div className="projLink1">
 					<a
-						href="https://github.com/Jett65"
+						href="https://github.com/Jett65/project02WorkoutTracker"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img
-							src="./image/fillerImage.jpg"
-							alt="Project 2"
-						></img>
+						<img src="./image/project2.png" alt="Project 2"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://www.google.com/"
+						href="https://bootcamp-workout-tracker.herokuapp.com/"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -29,18 +26,15 @@ function Portfolio() {
 
 				<div className="projLink2">
 					<a
-						href="https://github.com/Jett65"
+						href="https://github.com/Jett65/Wikimon"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img
-							src="./image/fillerImage.jpg"
-							alt="Project 2"
-						></img>
+						<img src="./image/project1.png" alt="Project 1"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://www.google.com/"
+						href="https://jett65.github.io/Wikimon/"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -50,18 +44,15 @@ function Portfolio() {
 
 				<div className="projLink3">
 					<a
-						href="https://github.com/Jett65"
+						href="https://github.com/Jett65/E-com"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img
-							src="./image/fillerImage.jpg"
-							alt="Project 2"
-						></img>
+						<img src="./image/ecom.png" alt="E-comers app"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://www.google.com/"
+						href="https://github.com/Jett65/E-com"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -75,14 +66,11 @@ function Portfolio() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img
-							src="./image/fillerImage.jpg"
-							alt="Project 2"
-						></img>
+						<img src="./image/rand1.jpg" alt="Project 2"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://www.google.com/"
+						href="https://github.com/Jett65"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -96,14 +84,11 @@ function Portfolio() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img
-							src="./image/fillerImage.jpg"
-							alt="Project 2"
-						></img>
+						<img src="./image/rand2.jpg" alt="Project 2"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://www.google.com/"
+						href="https://github.com/Jett65"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -117,14 +102,11 @@ function Portfolio() {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img
-							src="./image/fillerImage.jpg"
-							alt="Project 2"
-						></img>
+						<img src="./image/rand3.jpg" alt="Project 2"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://www.google.com/"
+						href="https://github.com/Jett65"
 						target="_blank"
 						rel="noreferrer"
 					>

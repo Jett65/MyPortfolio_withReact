@@ -4,16 +4,19 @@
 }
 
 .content {
-	margin-left: 200px;
+	display: flex;
+	margin-left: 45%;
+	flex-flow: column;
 }
 
-.skills li {
+ul {
 	font-size: 120%;
 	color: white;
 }
 
 .resumeLink {
 	background-color: transparent;
+	margin-left: -10px;
 }
 
 .resumeLink:hover {
@@ -26,7 +29,10 @@
 }
 
 @media screen and (max-width: 848px) {
-	.resumeLink {
+	.content {
+		margin-left: 35%;
+	}
+	ul {
 		background-color: transparent;
 	}
 }

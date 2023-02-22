@@ -6,7 +6,11 @@ function AboutMe() {
 		<>
 			<div className="aboutMe">
 				<h2>About Me</h2>
-				<div className="avatar"></div>
+				<img
+					className="avatar"
+					src="./image/Me.JPG"
+					alt="Temp banner"
+				/>
 				<p>
 					Can curiosity may end shameless explained. True high on said
 					mr on come. An do mr design at little myself wholly entire

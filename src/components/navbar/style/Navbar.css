@@ -50,6 +50,7 @@
 }
 
 a {
+	margin: 30px;
 	background-color: var(--backgroundColor);
 	font-size: 1.2rem;
 	text-decoration: none;
@@ -78,6 +79,10 @@ a {
 		padding-left: 5px;
 		margin: 10px;
 		margin-right: 20px;
+	}
+
+	a {
+		margin: 0;
 	}
 
 	.line div {

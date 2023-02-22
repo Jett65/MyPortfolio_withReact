@@ -6,6 +6,23 @@ function Resume() {
 		<>
 			<h2 className="resume">Resume</h2>
 			<div className="content">
+				<h2 className="title">Languages</h2>
+				<ul className="knownLang">
+					<li>JavaScript</li>
+					<li>Python</li>
+					<li>Html</li>
+					<li>CSS</li>
+					<li>Sql</li>
+					<li>mongoDB</li>
+				</ul>
+				<h2 className="title">Other Skills</h2>
+				<ul className="other">
+					<li>React</li>
+					<li>Express</li>
+					<li>Sequelize</li>
+					<li>mongoose</li>
+				</ul>
+
 				<a
 					className="resumeLink"
 					href="./image/Resume.pdf"
@@ -15,19 +32,6 @@ function Resume() {
 				>
 					Download my resume
 				</a>
-				<h2 className="title">Skills</h2>
-				<ul className="skills">
-					<li>JavaScript</li>
-					<li>Python</li>
-					<li>Html</li>
-					<li>CSS</li>
-					<li>React</li>
-					<li>Express</li>
-					<li>Sql</li>
-					<li>Sequelize</li>
-					<li>mongoDB</li>
-					<li>mongoose</li>
-				</ul>
 			</div>
 		</>
 	);
