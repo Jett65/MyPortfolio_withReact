@@ -62,15 +62,15 @@ function Portfolio() {
 
 				<div className="projLink4">
 					<a
-						href="https://github.com/Jett65"
+						href="https://github.com/Jett65/Daily_ToDo_List"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img src="./image/rand1.jpg" alt="Project 2"></img>
+						<img src="./image/todoList.png" alt="Project 2"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://github.com/Jett65"
+						href="https://jett65.github.io/Daily_ToDo_List/"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -80,15 +80,15 @@ function Portfolio() {
 
 				<div className="projLink5">
 					<a
-						href="https://github.com/Jett65"
+						href="https://github.com/Jett65/Whats_the_wether"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img src="./image/rand2.jpg" alt="Project 2"></img>
+						<img src="./image/wether.png" alt="Project 2"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://github.com/Jett65"
+						href="https://jett65.github.io/Whats_the_wether/"
 						target="_blank"
 						rel="noreferrer"
 					>
@@ -98,15 +98,15 @@ function Portfolio() {
 
 				<div className="projLink6">
 					<a
-						href="https://github.com/Jett65"
+						href="https://github.com/Jett65/onBrowsTextEditor"
 						target="_blank"
 						rel="noreferrer"
 					>
-						<img src="./image/rand3.jpg" alt="Project 2"></img>
+						<img src="./image/textEdit.png" alt="Project 2"></img>
 					</a>
 					<a
 						className="dep"
-						href="https://github.com/Jett65"
+						href="https://on-browser-text-editor.herokuapp.com/"
 						target="_blank"
 						rel="noreferrer"
 					>

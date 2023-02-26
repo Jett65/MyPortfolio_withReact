@@ -12,22 +12,11 @@ function AboutMe() {
 					alt="Temp banner"
 				/>
 				<p>
-					Can curiosity may end shameless explained. True high on said
-					mr on come. An do mr design at little myself wholly entire
-					though. Attended of on stronger or mr pleasure. Rich four
-					like real yet west get. Felicity in dwelling to drawings.
-					His pleasure new steepest for reserved formerly disposed
-					jennings.
-				</p>
-
-				<p>
-					Among going manor who did. Do ye is celebrated it sympathize
-					considered. May ecstatic did surprise elegance the ignorant
-					age. Own her miss cold last. It so numerous if he outlived
-					disposal. How but sons mrs lady when. Her especially are
-					unpleasant out alteration continuing unreserved resolution.
-					Hence hopes noisy may china fully and. Am it regard stairs
-					branch thirty length afford.
+					Hello, my name is Jett Crowther I am here to make your dream
+					webpage a reality. I am skilled in a vast area of
+					programming languages and frameworks. My goal is to learn
+					all that one possible can, and become the best developer who
+					has ever graced the internet.
 				</p>
 			</div>
 		</>
