@@ -2,6 +2,7 @@
   "name": "my-portfolio-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Jett65.github.io/MyPortfolio_withReact",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.1",
     "react-dom": "^18.2.0",
@@ -19,6 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
