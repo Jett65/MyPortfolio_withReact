@@ -16,7 +16,7 @@ function Footer() {
 				</a>
 				<a
 					className="link"
-					href="https:/https://www.linkedin.com/in/jett-crowther-5b161a267/"
+					href="https://www.linkedin.com/in/jett-crowther-5b161a267/"
 					target="_blank"
 					rel="noreferrer"
 				>
