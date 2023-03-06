@@ -1,0 +1,138 @@
+:root {
+	--nameTextColor: white;
+	--textColor: rgb(209, 202, 202);
+	--backgroundColor: #01122a;
+	--hoverBackgroundColor: #022a6a;
+	--hoverColor: rgb(182, 171, 171);
+	--buttonHoverColor: rgb(8, 8, 154);
+}
+
+.openMenu {
+	display: none;
+}
+
+.menuLink {
+	display: none;
+}
+
+.navTop {
+	background-color: var(--backgroundColor);
+}
+
+.menuLink2 {
+	display: none;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	background: var(--backgroundColor);
+	height: 70px;
+	width: 100vw;
+}
+
+.logo {
+	background-color: var(--backgroundColor);
+	color: var(--nameTextColor);
+	line-height: 35px;
+	font-size: 1.7rem;
+	padding: 0 20px;
+	font-weight: bold;
+}
+
+.navItem {
+	background-color: var(--backgroundColor);
+	display: inline-block;
+	margin: 0 40px;
+}
+
+a {
+	margin: 30px;
+	background-color: var(--backgroundColor);
+	font-size: 1.2rem;
+	text-decoration: none;
+	line-height: 45px;
+	color: var(--textColor);
+}
+
+.navItem :hover {
+	color: var(--hoverColor);
+}
+
+@media screen and (max-width: 848px) {
+	.navTop {
+		display: none;
+	}
+
+	.openMenu {
+		display: block;
+		background-color: var(--backgroundColor);
+		align-content: center;
+		height: 53px;
+		width: 53px;
+		border: solid rgba(3, 3, 207, 0.571);
+		border-width: 5px;
+		border-radius: 20%;
+		padding-left: 5px;
+		margin: 10px;
+		margin-right: 20px;
+	}
+
+	a {
+		margin: 0;
+	}
+
+	.line div {
+		width: 35px;
+		height: 5px;
+		background-color: white;
+		margin: 6px 0;
+	}
+
+	div.line {
+		background-color: var(--backgroundColor);
+	}
+
+	.openMen:hover {
+		background-color: var(--buttonHoverColor);
+	}
+
+	ul {
+		background-color: var(--backgroundColor);
+	}
+
+	.navMenu2 {
+		display: block;
+		width: 200px;
+		height: 220px;
+		background-color: var(--backgroundColor);
+		float: right;
+		border-bottom-left-radius: 10%;
+		z-index: 1;
+	}
+
+	.menuLink2 {
+		background-color: var(--backgroundColor);
+		display: block;
+		float: right;
+		margin-right: 50px;
+		z-index: 1;
+	}
+
+	.navItemMenu {
+		background-color: var(--backgroundColor);
+		color: var(--textColor);
+		display: block;
+	}
+
+	.navItemMenu a {
+		color: var(--textColor);
+	}
+
+	.navItemMenu :hover {
+		background-color: var(--hoverBackgroundColor);
+	}
+}

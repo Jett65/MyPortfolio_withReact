@@ -1,0 +1,15 @@
+.aboutMe {
+	margin: 30px;
+	margin-top: 5%;
+	color: rgb(212, 207, 207);
+}
+
+.aboutMe p {
+	font-size: 160%;
+}
+
+.avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
